@@ -1,0 +1,23 @@
+{
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "POSITIVE_PROMPT",
+      "clip": ["1", 0]
+    }
+  },
+  "7": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "NEGATIVE_PROMPT",
+      "clip": ["1", 0]
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "MyCompanion",
+      "images": ["8", 0]
+    }
+  }
+}
